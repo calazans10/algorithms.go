@@ -7,6 +7,8 @@ import (
 
 func main() {
     xs := []float64{1,2,3,4}
-    avg := math.Average(xs)
-    fmt.Println(avg)
+    fmt.Println("Avg:", math.Average(xs))
+    fmt.Println("Sum:", math.Sum(xs))
+    fmt.Println("Min:", math.Min(xs))
+    fmt.Println("Max:", math.Max(xs))
 }
